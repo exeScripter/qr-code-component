@@ -1,0 +1,108 @@
+/* Poppins Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;700&display=swap');
+
+html, body {
+    height: 100%;
+    background-color: #d4e1ee;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: inherit;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.box {
+    width: 22%;
+    background-color: #fefffe;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box h1 {
+    font-weight: 700;
+    font-size: 2rem; /* default font size */
+}
+
+.box p {
+    color: #a9abb1;
+    font-weight: 600;
+    font-size: 1.2rem; /* default font size */
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* Responsive */
+@media (max-width: 1440px) {
+    .box {
+        width: 25%;
+    }
+    .box h1 {
+        font-size: 2rem;
+    }
+    .box p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1068px) {
+    .box {
+        width: 30%;
+    }
+    .box h1 {
+        font-size: 1.8rem;
+    }
+    .box p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .box {
+        width: 50%;
+    }
+    .box h1 {
+        font-size: 1.5rem;
+    }
+    .box p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        width: 75%;
+    }
+    .box h1 {
+        font-size: 1.2rem;
+    }
+    .box p {
+        font-size: 0.8rem;
+    }
+}
